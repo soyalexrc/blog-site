@@ -26,4 +26,6 @@ const Card = forwardRef(({onClick, href, post}, ref) => {
   )
 })
 
+Card.displayName = "Card";
+
 export default Card;
